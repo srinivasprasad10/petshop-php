@@ -1,0 +1,114 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1E555C; /* Dark teal background */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0D3440; /* Darker teal on hover */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F0F0F0; /* Light gray background */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: #FFFFFF; /* White container background */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border: 2px solid #333333; /* Dark border */
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #EDEDED; /* Light gray input background */
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #CCCCCC; /* Slightly darker gray on focus */
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #E0E0E0; /* Light gray hr border */
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50; /* Green submit button */
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: #1E90FF; /* Medium blue links */
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #F5F5F5; /* Light gray sign-in background */
+  text-align: center;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #CCCCCC; /* Light gray table borders */
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #F2F2F2;} /* Alternate row background */
+
+#customers tr:hover {background-color: #DDDDDD;} /* Darker gray on hover */
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50; /* Green table header */
+  color: white;
+}
